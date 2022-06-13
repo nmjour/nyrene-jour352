@@ -6,12 +6,24 @@ body {
     font-weight: 400;
 }
 
+#container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+
+}
+
 /* name */
-h1 {
+#name {
     font-size: 3em;
     text-transform: uppercase;
     text-align: center;
     color: #33485e;
+    border-bottom: 1px solid #33485e;
+    width: 60%;
+    min-width: 300px;
+    margin: 0 auto;
 }
 
 /* title */
@@ -37,11 +49,28 @@ h3 {
 
 /* job org */
 h4 {
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+h5 {
     font-size: 1em;
     font-style: italic;
+    font-weight: 400;
 }
 
 /* list items */
 li {
     font-size: 1em;
+}
+
+.menu {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+/* turn contact links into nav menu */
+.menu li {
+    display: inline;
 }
