@@ -1,0 +1,63 @@
+/* style for masthead */
+#masthead {
+    font-family: Helvetica, sans-serif;
+    font-size: 4em;
+    font-weight: bold;
+    text-align: center;
+    padding: 50px;
+}
+
+/* wraps article */
+#content {
+    margin: 0 auto;
+    width: 900px;
+}
+
+/* style byline */
+#byline {
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    }
+
+/* style headline */
+h1 {
+    font-family: Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+/* style body text */
+p {
+    font-family: Georgia, serif;
+    font-size: 13px;
+}
+
+/* style pictures */
+figure {
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+figcaption {
+    color: grey;
+    font-size: 12px;
+}
+
+/* style heading for graphic */
+h2 {
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+/* style pull quote */
+blockquote {
+    font: 14px/22px Georgia, serif;
+    margin: 20px 20px 20px 100px;
+    padding: 20px 20px 20px 30px;
+    border-left: 3px solid #ccc;
+    width: 600px;
+    font-size: large;
+    font-weight: bold;
+}
+
