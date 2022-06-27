@@ -1,0 +1,38 @@
+/* style body text */
+body {
+    font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+/* style subheadings */
+h2 {
+    font-weight: 900;
+    padding: 20px 0 12px 0;
+    border-bottom: 1px solid #DFE2E6;
+}
+
+/* padding */
+.row {
+    padding-top: 30px;
+}
+
+/* style links */
+a:link {
+    color: #808080;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: #808080;
+}
+
+a:active {
+    color: grey;
+}
+
+iframe {
+    max-width: 100%;
+}
