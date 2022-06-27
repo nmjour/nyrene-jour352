@@ -1,10 +1,10 @@
 /* style body text */
 body {
     font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
-    font-weight: 400;
+    font-weight: 300;
 }
 
-/* style subheadings */
+/* style resume headings */
 h2 {
     font-weight: 900;
     padding: 20px 0 12px 0;
@@ -33,6 +33,35 @@ a:active {
     color: grey;
 }
 
+/* style yt embed */
 iframe {
     max-width: 100%;
+}
+
+/* style subheading */
+h3 {
+    font-weight:700;
+    text-transform: lowercase;
+}
+/* style date */
+.date {
+    font-weight: 300;
+    font-size: 1.15em;
+    letter-spacing: 2px;
+    font-style:italic;
+    color: #808080;
+    padding-bottom: 5px;
+    text-transform: lowercase;
+}
+
+/* style info */
+.description {
+    font-size: 1.15em;
+    line-height: 1.5;
+    text-transform: lowercase;
+}
+
+/* style footer */
+footer {
+    text-align: right;
 }
