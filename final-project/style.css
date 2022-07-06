@@ -2,6 +2,14 @@
     font-family: 'Libre Baskerville', Georgia, serif;
 }
 
+nav {
+    background-color: #132B45;
+}
+
+a {
+    color: white;
+}
+
 /* splash area */
 .hero-container {
     position: relative;
@@ -42,11 +50,16 @@
 }
 
 /* main container */
+.container {
+    padding-left: 100px;
+    padding-right: 100px;
+}
 
 .byline {
     font-size: 1em;
     letter-spacing: 0.05em;
     font-style: italic;
+    padding-top: 10px;
 }
 
 .chapter {
@@ -59,29 +72,59 @@
 p {
     line-height: 200%;
     font-size: 1em;
-    padding-top: 10px;
+    padding-top: 5px;
 }
 
+/* style img, gfx */
 figure {
     color: grey;
-    padding: 25px;
+    padding: 10px 0px 10px 0px;
 }
 
+figcaption {
+    padding-top: 10px;
+    font-size: 0.75em;
+}
+
+/* style pull quote */
+
+.quote {
+    font-size: 2em;
+    font-weight: 700;
+    text-align: center;
+    padding: 15px;
+    border-top: 3px solid #3181AF;
+    border-bottom: 3px solid #3181AF;
+    margin: 50px;
+    letter-spacing: 0.05em;
+
+
+}
+
+.quote-attrb {
+    font-size: 0.5em;
+    font-weight: 400;
+}
+
+/* style footer */
 footer {
-    background-color: black;
+    background-color: #132B45;
     padding: 10px 5px 5px 5px;
 }
 
 footer p {
-    font-family: 'Montserrat', sans-serif;
     text-align: center;
-    color: white;
+    color:lightslategray;
 }
 
 /* media queries */
 @media (max-width: 800px) {
+    .overlay {
+        top: 40%;
+    }
+
     .hero-hed {
-        font-size: 2em;
+        font-size: 1.75em;
     }
 
     .hero-sub {
@@ -90,11 +133,20 @@ footer p {
         padding-right: 50px;
     }
 
+    .container {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .byline {
+        font-size: 0.8em;
+    }
+
     .chapter {
-        font-size: 1.75em;
+        font-size: 1.5em;
+        letter-spacing: 0.15em;
     }
 
     p {
-        font-size: 0.9em;
+        font-size: 0.8em;
     }
 }
