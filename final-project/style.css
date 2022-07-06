@@ -6,10 +6,6 @@ nav {
     background-color: #132B45;
 }
 
-a {
-    color: white;
-}
-
 /* splash area */
 .hero-container {
     position: relative;
@@ -51,15 +47,13 @@ a {
 
 /* main container */
 .container {
-    padding-left: 100px;
-    padding-right: 100px;
+    padding: 10px 100px 10px 100px;
 }
 
 .byline {
     font-size: 1em;
     letter-spacing: 0.05em;
     font-style: italic;
-    padding-top: 10px;
 }
 
 .chapter {
