@@ -50,6 +50,7 @@ nav {
     padding: 10px 100px 10px 100px;
 }
 
+/* style text */
 .byline {
     font-size: 1em;
     letter-spacing: 0.05em;
@@ -81,7 +82,6 @@ figcaption {
 }
 
 /* style pull quote */
-
 .quote {
     font-size: 2em;
     font-weight: 700;
@@ -91,8 +91,6 @@ figcaption {
     border-bottom: 3px solid #3181AF;
     margin: 50px;
     letter-spacing: 0.05em;
-
-
 }
 
 .quote-attrb {
@@ -113,16 +111,12 @@ footer p {
 
 /* media queries */
 @media (max-width: 800px) {
-    .overlay {
-        top: 40%;
-    }
-
     .hero-hed {
-        font-size: 1.75em;
+        font-size: 1.5em;
     }
 
     .hero-sub {
-        font-size: 0.8em;
+        font-size: 0.5em;
         padding-left: 50px;
         padding-right: 50px;
     }
@@ -143,4 +137,10 @@ footer p {
     p {
         font-size: 0.8em;
     }
+
+    .quote {
+        font-size: 1.25em;
+        margin: 40px;
+    }
+
 }
