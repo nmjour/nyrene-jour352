@@ -1,0 +1,100 @@
+* {
+    font-family: 'Libre Baskerville', Georgia, serif;
+}
+
+/* splash area */
+.hero-container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.hero-image {
+    width: 100%;
+    filter: brightness(60%)
+
+}
+
+.overlay {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+}
+
+.hero-hed {
+    font-size: 4.5em;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: white;
+    margin: 0 auto;
+}
+
+.hero-sub {
+    font-size: 1.20em;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.headline {
+    font-size: 3em;
+    font-weight: 700;
+    text-align: center;
+}
+
+/* main container */
+
+.byline {
+    font-size: 1em;
+    letter-spacing: 0.05em;
+    font-style: italic;
+}
+
+.chapter {
+    font-size: 2em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.25em;
+}
+
+p {
+    line-height: 200%;
+    font-size: 1em;
+    padding-top: 10px;
+}
+
+figure {
+    color: grey;
+    padding: 25px;
+}
+
+footer {
+    background-color: black;
+    padding: 10px 5px 5px 5px;
+}
+
+footer p {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+/* media queries */
+@media (max-width: 800px) {
+    .hero-hed {
+        font-size: 2em;
+    }
+
+    .hero-sub {
+        font-size: 0.8em;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .chapter {
+        font-size: 1.75em;
+    }
+
+    p {
+        font-size: 0.9em;
+    }
+}
